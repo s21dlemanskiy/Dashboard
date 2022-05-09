@@ -1,0 +1,4188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1900</width>
+    <height>990</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+  background-color:RGB(0,0,0);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1941</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;</string>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>480</width>
+       <height>406</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="leftMargin">
+         <number>1</number>
+        </property>
+        <property name="rightMargin">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          font: bold 7p;
+                          min-width: 4em;
+					  min-height:30px;
+                          padding: 2px;}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+          </property>
+          <property name="text">
+           <string>2020</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          font: bold 7p;
+                          min-width: 4em;
+					  min-height:30px;
+                          padding: 2px;}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+          </property>
+          <property name="text">
+           <string>2021</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          font: bold 7p;
+                          min-width: 4em;
+					  min-height:30px;
+                          padding: 2px;}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+          </property>
+          <property name="text">
+           <string>2022</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          font: bold 7p;
+                          min-width: 4em;
+					  min-height:30px;
+                          padding: 2px;}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+          </property>
+          <property name="text">
+           <string>2023</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          font: bold 7p;
+                          min-width: 4em;
+					  min-height:30px;
+                          padding: 2px;}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+          </property>
+          <property name="text">
+           <string>2024</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="Finential_statistic1">
+        <property name="styleSheet">
+         <string notr="true">color:white;
+font: 100px;
+margin: 20px, 0px, 20px, 0px;
+
+</string>
+        </property>
+        <property name="text">
+         <string>920,120</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">color:white;
+font: 60px;</string>
+        </property>
+        <property name="text">
+         <string>Finencial Statistic</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,120);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 15px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 10px;
+					margin-right:300px}
+QPushButton:pressed{
+                          background-color: white;
+                          color: black;}</string>
+        </property>
+        <property name="text">
+         <string>Income Sources</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">color:white;
+margin-right:230px;</string>
+        </property>
+        <property name="text">
+         <string>Some not intresting text about somethink  that nobody will read</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">color:white;
+font: 18px;
+text-align: left;</string>
+          </property>
+          <property name="text">
+           <string>Income Torgets </string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="Finential_statistic2">
+          <property name="styleSheet">
+           <string notr="true">color:white;
+font: 27px;</string>
+          </property>
+          <property name="text">
+           <string>720,883</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>910</x>
+       <y>230</y>
+       <width>380</width>
+       <height>380</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border-radius:190px;
+background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgba(85, 0, 255, 0), stop:0.75 rgb(68, 0, 68));
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>320</width>
+        <height>320</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(98, 0, 155);
+border-radius:160px</string>
+      </property>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>220</width>
+         <height>220</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(148, 0, 148, 255), stop:0.333922 rgba(188, 61, 188, 255), stop:0.529042 rgba(208, 67, 208, 255), stop:0.694346 rgba(188, 61, 188, 255), stop:0.841444 rgba(148, 0, 148, 255));
+border-radius:110px</string>
+       </property>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:black;
+border-radius:80px</string>
+        </property>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>100</y>
+           <width>111</width>
+           <height>55</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 15px;
+background-color:rgba(255, 255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>Income Achived</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QWidget" name="widget_19" native="true">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>20</y>
+           <width>141</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+         </property>
+         <widget class="QWidget" name="horizontalLayoutWidget_3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>131</width>
+            <height>87</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="Finential_statistic1_2">
+             <property name="styleSheet">
+              <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 50px;</string>
+             </property>
+             <property name="text">
+              <string>80</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Finential_statistic1_3">
+             <property name="styleSheet">
+              <string notr="true">color:white;
+font: 50px;
+background-color:rgba(255, 255, 255, 0);</string>
+             </property>
+             <property name="text">
+              <string>%</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1220</x>
+       <y>40</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:60px</string>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>81</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 15px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Asset sale</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Asset_sale">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>77,422</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>270</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:45px</string>
+     </property>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>71</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 12px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Advertising</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>117,541</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1420</x>
+       <y>610</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:50px;</string>
+     </property>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 12px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Subscription</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Subscription">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>130,229</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>120</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:50px;</string>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 12px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Licencing</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Licencing">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>157,387</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>530</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:60px</string>
+     </property>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>81</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 15px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Usage fees</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Usage_fees">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>177,100</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_10" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>620</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.188383 rgba(111, 0, 148, 255), stop:0.333922 rgba(163, 61, 188, 255), stop:0.529042 rgba(168, 65, 208, 255), stop:0.694346 rgba(134, 59, 188, 255), stop:0.841444 rgba(91, 0, 144, 255));
+border-radius:40px;</string>
+     </property>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 12px;
+background-color:rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Renting</string>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Licencing_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>61,204</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>1490</x>
+       <y>180</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(0, 255, 255);
+border-radius:45px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>70</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: black;
+border-radius:35px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_45" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>61</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_4">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+           </property>
+           <property name="text">
+            <string>16</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_5">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 20px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_9">
+     <property name="geometry">
+      <rect>
+       <x>1570</x>
+       <y>690</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(0, 255, 255);
+border-radius:45px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <widget class="QFrame" name="frame_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>70</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: black;
+border-radius:35px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_18" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>61</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_26">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+           </property>
+           <property name="text">
+            <string>15</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_27">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 20px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_14">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>770</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(0, 255, 255);
+border-radius:45px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <widget class="QFrame" name="frame_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>70</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: black;
+border-radius:35px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_44" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>71</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_14">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>61</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_40">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_41">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 20px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_18">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>630</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(0, 255, 255);
+border-radius:45px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <widget class="QFrame" name="frame_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>70</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: black;
+border-radius:35px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_43" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>71</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>61</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_51">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+           </property>
+           <property name="text">
+            <string>21</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_52">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 20px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_22">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>110</y>
+       <width>90</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+background-color: rgb(0, 255, 255);
+border-radius:45px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <widget class="QFrame" name="frame_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>70</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: black;
+border-radius:35px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_42" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>61</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_26">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_73">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+           </property>
+           <property name="text">
+            <string>21</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_74">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 20px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_11" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1540</x>
+       <y>300</y>
+       <width>151</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QFrame" name="frame_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_22" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>32</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_20">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_21">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_19">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>YouTube Chanal</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_18">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>40</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>56,222</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_12" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1620</x>
+       <y>240</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_24" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_30">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_30">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_82">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_85">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_15">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Google Ad</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_14">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_13" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1630</x>
+       <y>170</y>
+       <width>161</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_25" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_31">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_86">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_87">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_11">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>0</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Company Webside</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_10">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>2,430</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_14" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1580</x>
+       <y>110</y>
+       <width>161</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_26" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_32">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_32">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_88">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_89">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_9">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>2,430</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_8">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Company Webside</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_15" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1480</x>
+       <y>90</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QLabel" name="Finential_statistic1_23">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>56,700</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_27" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_33">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_33">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_90">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_91">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_22">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Television Ad</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_17" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1580</x>
+       <y>800</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QFrame" name="frame_12">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_20" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_12">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>32</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_33">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>9</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_34">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_28">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Prime</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_35">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>71,220</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_23" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1250</x>
+       <y>810</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_28" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_34">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_34">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_92">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_93">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_17">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_39">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>81</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Equpments</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_29" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1180</x>
+       <y>870</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_30" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_35">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_94">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_95">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_24">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_36">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Lands</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_31" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>870</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_28">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>0</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_32" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_36">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_36">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_96">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_97">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_42">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>71</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Offices</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_33" native="true">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>740</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_16">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_34" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_37">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_37">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_98">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_99">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_37">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_50">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Reneval</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_35" native="true">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>740</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_20">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>0</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_36" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_38">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_38">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_100">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_101">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_38">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>5,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_53">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>71</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_37" native="true">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>220</y>
+       <width>131</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_29">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_39" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_40">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_40">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_104">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_105">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_80">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Software Metered Licence</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_81">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>99,500</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_40" native="true">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>80</y>
+       <width>121</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+</string>
+     </property>
+     <widget class="QFrame" name="frame_30">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_41" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_41">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_41">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_106">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_107">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_109">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>99,500</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_60">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Floatin License</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_46" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1780</x>
+       <y>69</y>
+       <width>120</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(2, 13, 87);
+border-radius:20px;</string>
+     </property>
+     <widget class="QLabel" name="Advertising_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>69,541</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;</string>
+      </property>
+      <property name="text">
+       <string>Average</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;</string>
+      </property>
+      <property name="text">
+       <string>Manthly income</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_48" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1780</x>
+       <y>190</y>
+       <width>120</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(2, 13, 87);
+border-radius:20px;</string>
+     </property>
+     <widget class="QLabel" name="Advertising_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 23px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>Profits</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 15px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>Operating</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_47" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>60</y>
+        <width>131</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <widget class="QLabel" name="Advertising_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Dec</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Nov</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_9">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Oct</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_10">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Sep</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_11">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Aug</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_5">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_6">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>200</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_7">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>160</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_12">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Jun</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_13">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Apr</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_8">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>180</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_9">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>120</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_14">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>May</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_15">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Mar</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_10">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>140</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_16">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Jul</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_17">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>Feb</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_11">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>220</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Advertising_18">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+text-align: center;
+</string>
+       </property>
+       <property name="text">
+        <string>ian</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_12">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>240</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Advertising_19">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>340</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>69,541</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>169,541</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_49" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1780</x>
+       <y>570</y>
+       <width>120</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(2, 13, 87);
+border-radius:20px;</string>
+     </property>
+     <widget class="QLabel" name="Advertising_21">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 30px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>B2B</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_22">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>714,241</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="Advertising_23">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+         </property>
+         <property name="text">
+          <string>86.16</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Advertising_24">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+         </property>
+         <property name="text">
+          <string>%</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="frame_26">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgba(0, 184, 200, 255), stop:0.75 rgba(0, 34, 255, 255));
+border-radius:50px;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="widget_50" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(2, 13, 87);
+border-radius:40px;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="Advertising_25">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+         </property>
+         <property name="text">
+          <string>86.16</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Advertising_26">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+         </property>
+         <property name="text">
+          <string>%</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="Advertising_27">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 20px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>714,241</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Advertising_28">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 30px;
+text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>B2C</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_16" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1670</x>
+       <y>700</y>
+       <width>91</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <widget class="QLabel" name="Finential_statistic1_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>59,300</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_11">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: rgb(45, 45, 45);
+border-radius:20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QWidget" name="widget_21" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_11">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>36</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_29">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="Finential_statistic1_30">
+           <property name="styleSheet">
+            <string notr="true">color:white;
+font: 10px;
+background-color:rgba(255, 255, 255, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Finential_statistic1_31">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>101</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color: rgba(255, 255, 255, 0);
+font: 10px;
+padding-left:5px;
+text-align: right;</string>
+      </property>
+      <property name="text">
+       <string>Premium</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1900</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

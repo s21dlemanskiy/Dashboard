@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+  background-color:RGB(0,0,0);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>641</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+ color:whithe; background-color: black;
+}</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>632</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="rightMargin">
+       <number>1</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+        </property>
+        <property name="text">
+         <string>2020</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+        </property>
+        <property name="text">
+         <string>2021</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+        </property>
+        <property name="text">
+         <string>2022</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+        </property>
+        <property name="text">
+         <string>2023</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,50);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+        </property>
+        <property name="text">
+         <string>2024</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-1</y>
+       <width>120</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+					margin: 5px;
+                          background-color: rgb(0,0,120);
+                          border-style: inset;
+                          color: white;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}
+QPushButton:pressed{
+					margin: 5px;
+                          background-color: white;
+                          border-style: inset;
+                          color: black;
+                          border-radius: 10px;
+                          border-color: beige;
+                          font: bold 14p;
+                          min-width: 10em;
+                          padding: 5px;}</string>
+     </property>
+     <property name="text">
+      <string>Income Sources</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLable{color:white;}</string>
+     </property>
+     <property name="text">
+      <string>Some not intresting text about somethink  that nobody will read</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>674</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
