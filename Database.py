@@ -88,7 +88,7 @@ def CountS(connect, **data):
         return -1
 
 
-def Update(connect, file="FSDS.xlsx"):
+def Update(connect, file="FSDS.xls"):
     workbook = xlrd.open_workbook(f".\data\{file}")
     worksheet = workbook.sheet_by_index(0)
     i = 1

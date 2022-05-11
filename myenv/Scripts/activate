@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\vniiz\Desktop\spectask\myenv"
+VIRTUAL_ENV="C:\Users\vniiz\Desktop\spectask\Dashboard\myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
